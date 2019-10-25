@@ -11,7 +11,7 @@ app.controller('coolController', function ($scope, $http)) {
             url: 'request-url', //replace with API url
             data: $scope.data
 
-        }).then(function successCallbak(response) {
+        }).then(function successCallback(response) {
             //success
             alert(response);
             console.log('Data sent!')
