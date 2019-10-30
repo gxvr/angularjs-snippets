@@ -1,0 +1,5 @@
+<!--ngRepeat with break tag (<br />) separator/delimiter-->
+   <span ng-repeat="item in items">
+    <a href="#/item.Id">{{item.Name}}</a>
+    <br ng-if="!$last" />
+</span>
